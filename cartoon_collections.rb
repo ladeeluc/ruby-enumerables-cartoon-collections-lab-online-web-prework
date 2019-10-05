@@ -28,7 +28,8 @@ end
 def find_the_cheese (array) # define method and set argument
     cheese_types = ["cheddar", "gouda", "camembert"] # array of elements returning cheese
 
-cheese_types.find{|cheese| array.include?(cheese)}
+cheese_types.find{|cheese| array.include?(cheese)} # competative array using ruby method
+#return array.includ? = true it return block paramenter
 
    #array.map do |stuff| # created new array to run mapping of to pull each element in array
       #cheese_types.find{|cheese|cheese == stuff} # asks block parameter is you find this put it
